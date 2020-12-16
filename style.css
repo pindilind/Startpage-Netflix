@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    position: fixed;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+
+
+/* MENY */
+.meny {
+    display: flex;
+}
+
+/* LOGGA */
+.logoContainer img{
+    background-color: deeppink;
+    flex-grow: 1;
+    width: 200px;
+    height: 80px;
+}
+
+
+/* MENYCONTAINER */
+
+
+.menyContainer {
+    background-color: black;
+    display: flex;
+    flex-grow: 3;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+}
+
+.containerOne {
+    background-color: black;
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
+
+/* SÖKMENY */
+
+.serchContainer {
+    background-color:black;
+    display: flex;
+    flex-grow: 1;
+    width: 50px;
+    height: 80px;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.containerTwo {
+    margin: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 10px;
+}
+
+
+/* STORBILD */
+
+.backgroundItem img {
+    background-color: black;
+    width: 100vw;
+    margin-top: 80px;
+    display: flex;
+    object-fit: cover;
+    position: relative;   
+}
+
+.exampel {
+    display: flex;
+    position: absolute;
+    color: white;
+    text-align: center;
+    justify-content: flex-end;
+    top: 200px;
+    right: 50px;
+    flex-direction: column;
+}
+
+.textOnPicture {
+    position: absolute;
+    margin-top: 320px;
+    margin-right: 100px;
+
+}
+
+h1 {
+    font-size: 80px;
+    margin: -30px;
+  
+}
+
+h2 {
+    font: 40px;
+
+}
+
+
+.buttons {
+    display: inline-block;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    transition: 0.3s;
+    opacity: 0.6;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+img {
+    max-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    }
+
+/* FILMMENY */
+
+.movieItem {
+    background-color: black;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+
+}
+
+.pictureItem {
+    display: flex;
+    height: 130px;
+    flex-grow: 2;
+    margin: 1px;
+    object-fit: cover;
+ 
+}
