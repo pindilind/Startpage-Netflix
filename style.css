@@ -66,7 +66,6 @@ body {
     height: 80px;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 .containerTwo {
@@ -103,20 +102,16 @@ body {
     position: absolute;
     margin-top: 320px;
     margin-right: 100px;
-
 }
 
 h1 {
     font-size: 80px;
-    margin: -30px;
-  
+    margin: -30px; 
 }
 
 h2 {
     font: 40px;
-
 }
-
 
 .buttons {
     display: inline-block;
@@ -128,7 +123,6 @@ h2 {
     border: none;
     cursor: pointer;
 }
-
 
 img {
     max-width: 100%;
@@ -144,7 +138,6 @@ img {
     display: flex;
     justify-content: center;
     align-self: flex-end;
-
 }
 
 .pictureItem {
@@ -153,5 +146,4 @@ img {
     flex-grow: 2;
     margin: 1px;
     object-fit: cover;
- 
 }
